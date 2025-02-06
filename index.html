@@ -9,6 +9,25 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <script src="./code.js"></script>
+    <div class="container">
+      <img id="imageContainer" class="image-container">
+    </div>
+    <h2 class="question-heading">Will you be my Valentine Bec?</h2>
+    <p id="loveSpan">I love you 💕</p>
+    <div class="button-container">
+      <button id="startButton" class="button btn-start" onclick="clickStart(this)">Start</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script src="./javascript/wordle.js"></script>
+    <script src="./javascript/code.js"></script>
+    <div id="gameContainer" class="game-container">
+      <div id="wordleContainer" class="wordle-container game-player">
+        <table id="wordleTable">
+        </table>
+        <div class="help-container" id="helpContainer">
+          (Start typing)
+        </div>
+      </div>
+    </div>
   </body>
 </html>

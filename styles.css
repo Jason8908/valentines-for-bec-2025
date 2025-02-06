@@ -1,0 +1,101 @@
+.image-container {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+body {
+  /* Comic sans */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.question-heading {
+  text-align: center;
+  font-size: 2em;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  /* Padding between buttons */
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-start {
+  background-color: #00e000;
+  transition:cubic-bezier(1, 0, 0, 1) 0.5s all;
+}
+
+.wordle-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  /* center */
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.wordle-cell {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 1px;
+  width: 40px;
+}
+
+.wordle-row {
+  width: 150px;
+  height: 40px;
+}
+
+td .content {
+  aspect-ratio: 1 / 1 ;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 10px;
+}
+
+.game-player {
+  display: none;
+  transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) 0.5s all;
+  opacity: 0;
+}
+
+#loveSpan {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  display: none;
+}
+
+.help-container {
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
+  max-width: 400px;
+  transition:cubic-bezier(0.6, -0.28, 0.735, 0.045) 1s all;
+}
+
+#wordleTable {
+  margin: 10px;
+}
